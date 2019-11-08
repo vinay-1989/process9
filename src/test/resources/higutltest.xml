@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+  
+<suite name="Hindi Gujarati Transliteration test">
+  
+  <test name="Hindi to Gujarati Test!">
+    <classes>
+      <class name="test.moxwave.com.hindi_gujarati_mapping" />
+    </classes>
+  </test>
+</suite>

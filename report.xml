@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" >
+<test name="demotest">
+<parameter name="searchKey" value="UK" />
+<classes>
+<class name="moxwave.com.hindi_gujarati_mapping">
+</class>
+</classes>
+</test>
+</suite>
