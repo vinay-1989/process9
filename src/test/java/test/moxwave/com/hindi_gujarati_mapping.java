@@ -34,7 +34,5 @@ public void hi_gu_mapping(String Langword, String TargetLanguage, String SourceL
       System.out.println(Actual +"\t"+Expected);
     Assert.assertEquals(Actual, Expected);
     System.out.print("");
-    
-
  }
 }

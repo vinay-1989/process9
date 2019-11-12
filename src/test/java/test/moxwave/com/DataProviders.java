@@ -116,12 +116,12 @@ public class DataProviders {
     }
   }
 
-  @DataProvider(name="sentence_break_input")
-  public static Object[][] getSentence_break_input() {
-    String FILE_PATH="d:\\qa\\sentence_break.xlsx";
+  @DataProvider(name="prefix_suffix_input")
+  public static Object[][] getprefix_suffix_input() {
+    String FILE_PATH="d:\\qa\\prefix_suffix.xlsx";
     try
     {
-       Object[][] data= getTableArray(FILE_PATH,4);
+       Object[][] data= getTableArray(FILE_PATH,5);
        return data;
     }
     catch(Exception e)
