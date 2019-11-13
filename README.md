@@ -20,6 +20,31 @@
   - Telugu to Kannada
   - Bengali to Bangla
   - Bangla to Bengali
+
+### Rule Based Languages
+```
+Hindi-Gujarati,Hindi-Bengali, Hindi-Punjabi, Hindi-Oriya
+```
+### Mapping Based Languages
+
+#### Mapping Rules
+```
+Hindi-Marathi, Telugu-Kannada, Kannada-Telugu, Hindi-Malayalam
+```
+### No mapping rules (Same as Hindi)
+```
+Hindi-Rajasthani,Hindi-Bhojpuri,Hindi-Nepali,Hindi-Dogri,Hindi-Konkani,Bengali-Bangla, Bangla-Bengali
+```
+
+## TestCase `IndicToIndicTransliteration`
+ - `SupportedLanguagesTest` : To test if correct algo `Rules` or `Map` running for a language
+ - Check `Algo` (unsupported languages returns blank Algo)
+ - Check expected transliteration (unsupported languages return blank transliteration)
+ - `SourceLanguageNormalizationTest`: To test Typing errors and nukta variations
+ - `HindiToGujaratiAllCharactersTest`
+ - `HindiToGujaratiTest` : **depends on** `HindiToGujaratiAllCharactersTest` Test Hindi Gujarati Rules
+ ```
+ 
 - Corpus API
   - Terminology Validation API
 - Sentence Break API
