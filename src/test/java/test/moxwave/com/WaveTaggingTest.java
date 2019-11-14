@@ -61,7 +61,7 @@ public class WaveTaggingTest {
         //Assert.assertTrue(true);
     }
     
-    @Test(dataProvider = "taggingtestdata", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
     public void testTaggingResult(String apiinput, String apiexpected)
     {
         Response response = postTextPayload(WebConfig.BASE_CONFIG.getTaggingApi(),apiinput);

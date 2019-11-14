@@ -71,7 +71,7 @@ public class CorpusApiTest {
         //Assert.assertTrue(true);
     }
     
-    @Test(dataProvider = "enhi_terminology", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
     public void en_hi_validateTerminology(String Name, String SourceLanguage, String TargetLanguage, String SourceText, String TargetText, String expected)
     {
         JSONObject terminology_payload = new JSONObject()

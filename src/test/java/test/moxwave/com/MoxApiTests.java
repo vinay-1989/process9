@@ -11,7 +11,7 @@ import io.restassured.path.json.JsonPath;
 public class MoxApiTests{
 
 @Test
-public void isValidGetAPI() {
+public void isValidGetAPI(){
 
     Assert.assertEquals(validateApi.getRequestStatus(WebConfig.BASE_CONFIG.validatePrefixSuffix()),200);
 
@@ -32,7 +32,7 @@ public void isValidResponsetype(){
     Assert.assertEquals(response.contentType(), "application/json; charset=utf-8");
 }
 
-@Test(dataProvider = "prefix_suffix_input", dataProviderClass = DataProviders.class)
+@Test(dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
 public void prefixSuffix(String engword , String ex_engword, String en_engword, String en_prefix, String en_suffix)
 {
 
