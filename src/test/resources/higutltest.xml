@@ -4,8 +4,8 @@
   
   <test name="Hindi to Gujarati Test!">
     <classes>
-     <!--<class name="test.moxwave.com.hindi_gujarati_mapping" />-->
-      <class name="test.moxwave.com.MoxApiTests" />
+     <class name="test.moxwave.com.IndicToIndicTransliterationTests" />
+     <!---> <class name="test.moxwave.com.MoxApiTests" /> -->
     </classes>
   </test>
 </suite>

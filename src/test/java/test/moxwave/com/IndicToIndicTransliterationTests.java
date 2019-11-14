@@ -60,7 +60,7 @@ public void SupportedLanguagesTest(String SourceLanguage, String TargetLanguage,
         System.out.println(Actual_algo +" "+Expected_Algo+"  "+SourceLanguage+"  "+TargetLanguage);
         Assert.assertEquals(Actual_algo, Expected_Algo);
        
-        String Api_TargetText=jsonPathEvaluator.get("TargetText");
+         String Api_TargetText=jsonPathEvaluator.get("TargetText");
         //Assert.assertEquals(Api_TargetText, Expected_TargetText);
 
 
