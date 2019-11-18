@@ -41,6 +41,7 @@ Hindi-Rajasthani,Hindi-Bhojpuri,Hindi-Nepali,Hindi-Dogri,Hindi-Konkani,Bengali-B
  - Check `Algo` (unsupported languages returns blank Algo)
  - Check expected transliteration (unsupported languages return blank transliteration)
  - `SourceLanguageNormalizationTest`: To test Typing errors and nukta variations
+ - `HindiToGujaratiSupportTest` To be assure that gujarati engine and rule file is working fine.
  - `HindiToGujaratiAllCharactersTest`
  - `HindiToGujaratiTest` : **depends on** `HindiToGujaratiAllCharactersTest` Test Hindi Gujarati Rules
  ```

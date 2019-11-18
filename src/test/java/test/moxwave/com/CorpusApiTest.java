@@ -88,6 +88,7 @@ public class CorpusApiTest {
         List<String> terminology = response.jsonPath().getList("$");
         String termwords = String.join(",", terminology);
         Assert.assertEquals(termwords, expected);
+        System.out.println(terminology);
 
      }
 }

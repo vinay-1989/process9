@@ -1,11 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
   
 <suite name="Hindi Gujarati Transliteration test">
-  
-  <test name="Hindi to Gujarati Test!">
+<test name="Hindi to Gujarati Test!">
+
     <classes>
-     <class name="test.moxwave.com.IndicToIndicTransliterationTests" />
-     <!---> <class name="test.moxwave.com.MoxApiTests" /> -->
+     <class name="test.moxwave.com.IndicToIndicTransliterationTests" >
+        <methods>
+         <include name="SourceLanguageNormalizationTest" />
+         <!--<include name="HindiToGujaratiSupportTest" /> -->
+        </methods>
+       </class>
     </classes>
   </test>
 </suite>
