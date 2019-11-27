@@ -1,8 +1,6 @@
 package test.moxwave.com;
 import test.moxwave.com.*;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
 import org.json.JSONArray;
@@ -38,7 +36,7 @@ public void HindiToGujaratiTest(String SourceText, String SourceLanguage, String
         String api=WebConfig.BASE_CONFIG.getHindiIndicMappingApi();
         Response response=  validateApi.postJsonPayload(api, mapping_payload);
         JsonPath jsonPathEvaluator = response.jsonPath();
-
+         System.out.println(api);
        
         String Actual_algo=jsonPathEvaluator.get("Algo");
         Assert.assertEquals(Actual_algo, Algo);
@@ -56,6 +54,7 @@ public void SupportedLanguagesTest(String SourceLanguage, String TargetLanguage,
                         .put("SourceLanguage",SourceLanguage);
 
         String api=WebConfig.BASE_CONFIG.getHindiIndicMappingApi();
+        
         Response response=  validateApi.postJsonPayload(api, mapping_payload);
         JsonPath jsonPathEvaluator = response.jsonPath();
 

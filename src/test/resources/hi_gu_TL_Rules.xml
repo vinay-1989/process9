@@ -6,8 +6,12 @@
     <classes>
      <class name="test.moxwave.com.IndicToIndicTransliterationTests" >
         <methods>
-         <include name="SourceLanguageNormalizationTest" />
+         <include name="HindiToGujaratiTest" />
          <!--<include name="HindiToGujaratiSupportTest" /> -->
+         <!--<include name="SupportedLanguagesTest" /> -->
+         <!--<include name="HindiToGujaratiSupportTest" /> -->
+         <!--<include name="SourceLanguageNormalizationTest" /> -->
+         
         </methods>
        </class>
     </classes>

@@ -1,0 +1,290 @@
+{
+	"ऄ" : {
+		"V" : true
+	},
+	"अ" : {
+		"V" : true
+	},
+	"आ" : {
+		"V" : true
+	},
+	"इ" : {
+		"V" : true
+	},
+	"ई" : {
+		"V" : true
+	},
+	"उ" : {
+		"V" : true
+	},
+	"ऊ" : {
+		"V" : true
+	},
+	"ऋ" : {
+		"V" : true
+	},
+	"ऌ" : {
+		"V" : true
+	},
+	"ऍ" : {
+		"V" : true
+	},
+	"ऎ" : {
+		"V" : true
+	},
+	"ए" : {
+		"V" : true
+	},
+	"ऐ" : {
+		"V" : true
+	},
+	"ऑ" : {
+		"V" : true
+	},
+	"ऒ" : {
+		"V" : true
+	},
+	"ओ" : {
+		"V" : true
+	},
+	"औ" : {
+		"V" : true
+	},
+	"क" : {
+		"C" : true,
+		"K" : true
+	},
+	"ख" : {
+		"C" : true,
+		"K" : true
+	},
+	"ग" : {
+		"C" : true,
+		"K" : true
+	},
+	"घ" : {
+		"C" : true,
+		"K" : true
+	},
+	"क़" : {
+		"C" : true
+	},
+	"ख़" : {
+		"C" : true
+	},
+	"ग़" : {
+		"C" : true
+	},
+	"ज़" : {
+		"C" : true
+	},
+	"ड़" : {
+		"C" : true
+	},
+	"ढ़" : {
+		"C" : true
+	},
+	"फ़" : {
+		"C" : true
+	},
+	"य़" : {
+		"C" : true
+	},
+	"ॠ" : {
+		"C" : true
+	},
+	"ॡ" : {
+		"C" : true
+	},
+	"ङ" : {
+		"C" : true
+	},
+	"च" : {
+		"C" : true,
+		"c" : true
+	},
+	"छ" : {
+		"C" : true
+	},
+	"ज" : {
+		"C" : true,
+		"c" : true
+	},
+	"झ" : {
+		"C" : true
+	},
+	"ञ" : {
+		"C" : true
+	},
+	"ट" : {
+		"C" : true,
+		"T" : true
+	},
+	"ठ" : {
+		"C" : true,
+		"T" : true
+	},
+	"ड" : {
+		"C" : true,
+		"T" : true
+	},
+	"ढ" : {
+		"C" : true,
+		"T" : true
+	},
+	"ण" : {
+		"C" : true,
+		"T" : true
+	},
+	"त" : {
+		"C" : true,
+		"t" : true
+	},
+	"थ" : {
+		"C" : true,
+		"t" : true
+	},
+	"द" : {
+		"C" : true,
+		"t" : true
+	},
+	"ध" : {
+		"C" : true,
+		"t" : true
+	},
+	"न" : {
+		"C" : true,
+		"t" : true
+	},
+	"ऩ" : {
+		"C" : true,
+		"t" : true
+	},
+	"प" : {
+		"C" : true,
+		"P" : true
+	},
+	"फ" : {
+		"C" : true,
+		"P" : true
+	},
+	"ब" : {
+		"C" : true,
+		"P" : true
+	},
+	"भ" : {
+		"C" : true,
+		"P" : true
+	},
+	"म" : {
+		"C" : true,
+		"P" : true
+	},
+	"य" : {
+		"C" : true
+	},
+	"र" : {
+		"C" : true
+	},
+	"ऱ" : {
+		"C" : true
+	},
+	"ल" : {
+		"C" : true
+	},
+	"ळ" : {
+		"C" : true
+	},
+	"ऴ" : {
+		"C" : true
+	},
+	"व" : {
+		"C" : true,
+		"P" : true
+	},
+	"श" : {
+		"C" : true
+	},
+	"ष" : {
+		"C" : true
+	},
+	"स" : {
+		"C" : true
+	},
+	"ह" : {
+		"C" : true
+	},
+	"़" : {
+		"V" : true
+	},
+	"ऽ" : {
+		"V" : true
+	},
+	"ा" : {
+		"V" : true
+	},
+	"ि" : {
+		"V" : true
+	},
+	"ी" : {
+		"V" : true
+	},
+	"ु" : {
+		"V" : true
+	},
+	"ू" : {
+		"V" : true
+	},
+	"ृ" : {
+		"V" : true
+	},
+	"ॄ" : {
+		"V" : true
+	},
+	"ॅ" : {
+		"V" : true
+	},
+	"ॆ" : {
+		"V" : true
+	},
+	"े" : {
+		"V" : true
+	},
+	"ै" : {
+		"V" : true
+	},
+	"ॉ" : {
+		"V" : true
+	},
+	"ॊ" : {
+		"V" : true
+	},
+	"ो" : {
+		"V" : true
+	},
+	"ौ" : {
+		"V" : true
+	},
+	"्" : {
+		"V" : true
+	},
+	"ॐ" : null,
+	"ं" : {
+		"V" : true
+	},
+	"॒" : {
+		"V" : true
+	},
+	"॓" : {
+		"V" : true
+	},
+	"॔" : {
+		"V" : true
+	},
+	"ॢ" : {
+		"V" : true
+	},
+	"ॣ" : {
+		"V" : true
+	}
+}

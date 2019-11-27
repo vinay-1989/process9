@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+  
+<suite name="Gujarati vocab test">
+<test name="Gujarati vocabulary test!">
+
+    <classes>
+     <class name="test.moxwave.com.CorpusApiTest" >
+        <methods>
+         <include name="GujaratiTerminologySuffixTest" />         
+        </methods>
+       </class>
+    </classes>
+  </test>
+</suite>

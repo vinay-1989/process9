@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+  
+<suite name="Integrated Suit">
+<test name="Multiple class!">
+
+    <classes>
+	<class name="test.moxwave.com.IndicToIndicTransliterationTests" >
+        <methods>
+	     <include name="HindiToGujaratiTest" />
+        </methods>
+       </class>
+       </classes>
+  </test>
+</suite>

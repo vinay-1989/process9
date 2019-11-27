@@ -9,12 +9,15 @@ import org.aeonbits.owner.Config.Key;
 
 //@Config.Sources({ "classpath:${env}.properties" })
 @Config.Sources({ "classpath:qa.properties" })
+//Config.Sources({ "classpath:dev.properties" })
 
 public interface WebConfig extends Config {
 /**
      * Value BASE_CONFIG.
      */
+   
     public static WebConfig BASE_CONFIG = ConfigFactory.create(WebConfig.class, System.getenv(), System.getProperties());
+    
 /**
      * Value web.url.
      *

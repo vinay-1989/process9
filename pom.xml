@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
             <groupId>org.aeonbits.owner</groupId>
-            <artifactId>owner</artifactId>
+            <artifactId>owner-java8</artifactId>
             <version>1.0.9</version>
         </dependency>
     <dependency>
@@ -51,6 +51,14 @@
         <version>4.1.1</version>
         <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 -->
+<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>sqljdbc4</artifactId>
+    <version>4.0</version>
+    <scope>test</scope>
+</dependency>
+
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
@@ -91,7 +99,7 @@
         <configuration>
         <argLine>-Dfile.encoding=UTF-8</argLine>
             <suiteXmlFiles>
-                <suiteXmlFile>src/test/resources/higutltest.xml</suiteXmlFile>
+                <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
             </suiteXmlFiles>
         </configuration>
         </plugin>

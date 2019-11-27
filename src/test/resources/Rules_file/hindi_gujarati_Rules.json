@@ -1,0 +1,239 @@
+{
+        "CHANDRA_rules":[
+			["Anything",	"\u0901",		"Anything",	"\u0a82"	]
+		],
+        "ANUSWAR_rules":[
+		["Anything",	"\u0902",		"Nothing",	"\u0a82"	],
+		["Anything",	"\u0902",		"K",	"\u0a82"	],
+		["Anything","\u0902",		"P",	"\u0a82"	],
+		["अा","\u0902",		"Anything",	"\u0a82"	],
+		["आ","\u0902",		"Anything",	"\u0a82"	],
+		["ऊ","\u0902",		"Anything",	"\u0a82"	],
+		["ई","\u0902",		"Anything",	"\u0a82"	],
+		["ा","\u0902",		"Anything",	"\u0a82"	],
+		["ी","\u0902",		"Anything",	"\u0a82"	],
+		["ू","\u0902",		"Anything",	"\u0a82"	],
+		["Anything",	"\u0902",		"Anything",	"ન્"	]
+		],
+        "VISARG_rules":[
+			["Anything",	"\u0903",		"Anything",	"\u0a83"	]
+		],
+        "U904_rules":[
+			["Anything",	"\u0904",		"Anything",	"અ"	]
+		],
+        "A_rules":[
+			["Anything",	"अाै",		"Anything",	"ઔ"	],
+			["Anything",	"अाे",		"Anything",	"ઓ"	],
+			["Anything",	"अाॅ",		"Anything",	"ઑ"	],
+			["Anything",	"अाॆ",		"Anything",	"ઑ"	],
+			["Anything",	"अा",		"Anything",	"આ"	],
+			["Anything",	"अो",		"Anything",	"ઓ"	],
+			["Anything",	"अौ",		"Anything",	"ઔ"	],
+			["Anything",	"अॉ",		"Anything",	"ઑ"	],
+			["Anything",	"अॊ",		"Anything",	"ઑ"	],
+			["Anything",	"अ",		"Anything",	"અ"	],
+			["Anything",	"ऄ",		"Anything",	"અ"	]
+		],
+        "AA_rules":[
+		
+			["Anything",	"आ",		"Anything",	"આ"	],
+			["Anything",	"ा",		"Anything",	"ા"	]
+		],
+		
+        "I_rules":[
+			["Anything",	"इ",		"Anything",	"ઇ"	],
+			["Anything",	"ि",		"Anything",	"િ"	]
+		],
+        "II_rules":[
+			["Anything",	"ई",		"Nothing",	"ઈ"	],
+			["Anything",	"ी",		"Anything",	"ી"	]
+		],
+        "U_rules":[
+			["Anything",	"उ",		"Anything",	"ઉ"	],
+			["Anything",	"ु",		"Anything",	"ુ"	]
+		],
+        "UU_rules":[
+			["Anything",	"ऊ",		"Anything",	"ઊ"	],
+			["Anything",	"ू",		"Anything",	"ૂ"	]
+		],
+        "RI_rules":[
+			["Anything",	"ऋ",		"Anything",	"ઋ"	],
+			["Anything",	"ॄ",		"Anything",	"ૃ"	]
+		],
+        "E_rules":[
+			["Anything",	"एे",		"Anything",	"ઐ"	],
+			["Anything",	"एॅ",		"Anything",	"ઍ"	],
+			["Anything",	"एॆ",		"Anything",	"ઍ"	],
+			["Anything",	"ए",		"Anything",	"એ"	],
+			["Anything",	"े",		"Anything",	"ે"	]
+		],
+        "EI_rules":[
+			["Anything",	"ऐ",		"Anything",	"ઐ"	],
+			["Anything",	"ै",		"Anything",	"ૈ"	]
+		],
+        "AI_rules":[
+			["Anything",	"ऍ",		"Anything",	"ઍ"	],
+			["Anything",	"ऎ",		"Anything",	"ઍ"	],
+			["Anything",	"ॅ",		"Anything",	"ૅ"	],
+			["Anything",	"ॆ",		"Anything",	"ૅ"	]
+		],
+        "O_rules":[
+			["Anything",	"ओ",		"Anything",	"ઓ"	],
+			["Anything",	"ो",		"Anything",	"ો"	]
+		],
+        "OW_rules":[
+			["Anything",	"औ",		"Anything",	"ઔ"	],
+			["Anything",	"ौ",		"Anything",	"ૌ"	]
+		],
+        "AU_rules":[
+			["Anything",	"ऑ",		"Anything",	"ઑ"	],
+			["Anything",	"ऒ",		"Anything",	"ઑ"	],
+			["Anything",	"ॉ",		"Anything",	"ૉ"	],
+			["Anything",	"ॊ",		"Anything",	"ૉ"	]
+		],
+        "KA_rules":[
+			["Anything",	"क़",		"Anything",	"ક"	],
+			["Anything",	"क",		"Anything",	"ક"	],
+			["Anything",	"क़",		"Anything",	"ક"	]
+		],
+        "KHA_rules":[
+			["Anything",	"ख़",		"Anything",	"ખ"	],
+			["Anything",	"ख",		"Anything",	"ખ"	],
+			["Anything",	"ख़",		"Anything",	"ખ"	]
+			
+		],
+        "GA_rules":[
+
+			["Anything",	"ग़",		"Anything",	"ગ"	],
+			["Anything",	"ग",		"Anything",	"ગ"	],
+			["Anything",	"ग़",		"Anything",	"ગ"	]
+		],
+        "GHA_rules":[
+			["Anything",	"घ",		"Anything",	"ઘ"	]
+		],
+        "NGA_rules":[
+			["Anything",	"ङ",		"Anything",	"ઙ"	]
+		],
+        "CHA_rules":[
+			["Anything",	"च",		"Anything",	"ચ"	]
+		],
+        "CHHA_rules":[
+			["Anything",	"छ",		"Anything",	"છ"	]
+		],
+        "JA_rules":[
+			["Anything",	"ज़",		"Anything",	"જ"	],
+			["Anything",	"ज",		"Anything",	"જ"	],
+			["Anything",	"ज़",		"Anything",	"જ"	]
+		],
+        "JHA_rules":[
+			["Anything",	"झ",		"Anything",	"ઝ"	]
+		],
+        "NYA_rules":[
+			["Anything",	"ञ",		"Anything",	"ઞ"	]
+		],
+        "TTA_rules":[
+			["Anything",	"ट",		"Anything",	"ટ"	]
+		],
+        "TTHA_rules":[
+			["Anything",	"ठ",		"Anything",	"ઠ"	]
+		],
+        "DDA_rules":[
+			["Anything",	"ड़",		"Anything",	"ડ"	],
+			["Anything",	"ड",		"Anything",	"ડ"	],
+			["Anything",	"ड़",		"Anything",	"ડ"	]
+		],
+        "DDHA_rules":[
+			["Anything",	"ढ़",		"Anything",	"ઢ"	],
+			["Anything",	"ढ",		"Anything",	"ઢ"	],
+			["Anything",	"ढ़",		"Anything",	"ઢ"	]
+		],
+        "NRA_rules":[
+			["Anything",	"ण",		"Anything",	"ણ"	]
+		],
+        "TA_rules":[
+			["Anything",	"त",		"Anything",	"ત"	]
+		],
+        "THA_rules":[
+			["Anything",	"थ",		"Anything",	"થ"	]
+		],
+        "DA_rules":[
+			["Anything",	"द",		"Anything",	"દ"	]
+		],
+        "DHA_rules":[
+			["Anything",	"ध",		"Anything",	"ધ"	]
+		],
+        "NA_rules":[
+			["Anything",	"ऩ",		"Anything",	"ન"	],			
+			["Anything",	"न",		"Anything",	"ન"	],
+			["Anything",	"ऩ",		"Anything",	"ન"	]
+		],
+        "PA_rules":[
+		
+			["Anything",	"प",		"Anything",	"પ"	]
+		],
+        "PHA_rules":[
+			["Anything",	"फ़",		"Anything",	"ફ"	],
+			["Anything",	"फ",		"Anything",	"ફ"	],
+			["Anything",	"फ़",		"Anything",	"ફ"	]
+		],
+        "BA_rules":[
+			["Anything",	"ब",		"Anything",	"બ"	]
+		],
+        "BHA_rules":[
+			["Anything",	"भ",		"Anything",	"ભ"	]
+		],
+        "MA_rules":[
+
+			["Anything",	"म",		"Anything",	"મ"	]
+		],
+        "YA_rules":[
+
+			["Anything",	"य़",		"Anything",	"ય"	],
+			["Anything",	"य",		"Anything",	"ય"	]
+		],
+        "RA_rules":[
+			["Anything",	"र",		"Anything",	"ર"	],
+			["Anything",	"ऱ",		"Anything",	"ર"	]
+		],
+        "LA_rules":[
+			["Anything",	"ल",		"Anything",	"લ"	],
+			["Anything",	"ऴ",		"Anything",	"લ"	],
+			["Anything",	"ऴ",		"Anything",	"લ"	],
+			["Anything",	"ळ",		"Anything",	"લ"	]
+		],
+        "VA_rules":[
+			["Anything",	"व",		"Anything",	"વ"	]
+		],
+        "SHA_rules":[
+			["Anything",	"श",		"Anything",	"શ"	]
+		],
+        "SHHA_rules":[
+			["Anything",	"ष",		"Anything",	"ષ"	]
+		],
+        "SA_rules":[
+            ["Anything",	"स",		"Anything",	"સ"	]
+		],
+        "HA_rules":[
+			["Anything",	"ह",		"Anything",	"હ"	]
+		],
+        "U900_rules":[
+			["Anything",	"ऽ",		"Anything",	"ऽ"	],
+			["Anything",	"ॐ",		"Anything",	"ૐ"	],
+			["Anything",	"०",		"Anything",	"0"	],
+			["Anything",	"१",		"Anything",	"1"	],
+			["Anything",	"२",		"Anything",	"2"	],
+			["Anything",	"३",		"Anything",	"3"	],
+			["Anything",	"४",		"Anything",	"4"	],
+			["Anything",	"५",		"Anything",	"5"	],
+			["Anything",	"६",		"Anything",	"6"	],
+			["Anything",	"७",		"Anything",	"7"	],
+			["Anything",	"८",		"Anything",	"8"	],
+			["Anything",	"९",		"Anything",	"9"	]
+		],
+
+
+        "HAL_rules":[
+			["Anything",	"\u094d",		"Anything",	"્"	]
+		]
+		
+}

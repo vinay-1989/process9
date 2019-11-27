@@ -60,15 +60,15 @@ public class CorpusApiTest {
     }
     @Test
     public void isValidGetAPI() {
-        //assertTrue(true);
+        
         Assert.assertEquals(getRequestStatus(WebConfig.BASE_CONFIG.getTerminologyValidationApi()),200);
-        //Assert.assertTrue(true);
+       
     }
     @Test
     public void isValidPostAPI() {
-        //assertTrue(true);
+        
         Assert.assertEquals(postRequestStatus(WebConfig.BASE_CONFIG.getTerminologyValidationApi()),200);
-        //Assert.assertTrue(true);
+       
     }
     
     @Test(dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
@@ -91,4 +91,49 @@ public class CorpusApiTest {
         System.out.println(terminology);
 
      }
+
+     @Test(dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
+    public void TamilTerminologySuffixTest(String Name, String SourceLanguage, String TargetLanguage, String SourceText, String TargetText, String expected)
+    {
+        JSONObject terminology_payload = new JSONObject()
+                            .put("Name",Name)
+                            .put("SourceLanguage",SourceLanguage)
+                            .put("TargetLanguage", TargetLanguage)
+                            .put("SourceText", SourceText)
+                            .put("TargetText", TargetText);
+
+                            
+
+       // Response response = postJsonPayload(WebConfig.BASE_CONFIG.getTerminologyValidationApi(),terminology_payload);
+        String api=WebConfig.BASE_CONFIG.getTerminologyValidationApi();
+        System.out.println(api);
+        Response response=  validateApi.postJsonPayload(api, terminology_payload);
+        List<String> terminology = response.jsonPath().getList("$");
+        String termwords = String.join(",", terminology);
+        Assert.assertEquals(termwords, expected);
+        System.out.println(TargetText+" "+ expected);
+
+     }
+
+     @Test(dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
+     public void GujaratiTerminologySuffixTest(String Name, String SourceLanguage, String TargetLanguage, String SourceText, String TargetText, String expected)
+     {
+         JSONObject terminology_payload = new JSONObject()
+                             .put("Name",Name)
+                             .put("SourceLanguage",SourceLanguage)
+                             .put("TargetLanguage", TargetLanguage)
+                             .put("SourceText", SourceText)
+                             .put("TargetText", TargetText);
+ 
+                             
+ 
+         Response response = postJsonPayload(WebConfig.BASE_CONFIG.getTerminologyValidationApi(),terminology_payload);
+ 
+         List<String> terminology = response.jsonPath().getList("$");
+         String termwords = String.join(",", terminology);
+         Assert.assertEquals(termwords, expected);
+         System.out.println(TargetText+" "+ expected);
+ 
+      }
+
 }
