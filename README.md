@@ -281,3 +281,11 @@ List of Sentences with tagging and prefix\suffix in input
 ],
 }
 ```
+
+```
+git credentials
+
+username=qa
+password=qa@git123
+
+```
