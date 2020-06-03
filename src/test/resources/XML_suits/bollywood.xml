@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+  
+<suite name="Bollywood_dhamaka">
+<test name="Bollywood_details">
+
+    <classes>
+     <class name="test.moxwave.com.BollywoodTest" >
+        <methods>   
+       <include name="openbrowser" /> 
+        <include name="fetch_details" /> 
+        </methods>
+       </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+  
+<suite name="Sendto_EditTool">
+<test name="sentToEdit">
+
+    <classes>
+     <class name="test.moxwave.com.SendToEditTool" >
+        <methods>   
+       <include name="SendtoTool"/> 
+   
+        </methods>
+       </class>
+    </classes>
+  </test>
+</suite>

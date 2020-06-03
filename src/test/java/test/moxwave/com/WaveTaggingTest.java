@@ -68,7 +68,7 @@ public class WaveTaggingTest {
 	    // First get the JsonPath object instance from the Response interface
 	    JsonPath jsonPathEvaluator = response.jsonPath();
         String taggedSentence = jsonPathEvaluator.get("TagSentence");
-        System.out.println(taggedSentence);
+        System.out.println(apiexpected+"    "+taggedSentence);
 	    Assert.assertEquals(taggedSentence, apiexpected);
     }
 }

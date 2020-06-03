@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+  
+<suite name="new test">
+<test name="validate test">
+
+    <classes>
+     <class name="test.moxwave.com.onetest" >
+        <methods>   
+       <include name="set" /> 
+        </methods>
+       </class>
+    </classes>
+  </test>
+</suite>

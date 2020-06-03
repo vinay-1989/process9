@@ -46,7 +46,6 @@ public void prefixSuffix(String engword , String ex_engword, String en_engword, 
         String api_en_prefix = jsonPathEvaluator.get("SentenceList[0].en_prefix");
         Assert.assertEquals(api_en_prefix, en_prefix);     
         String api_en_suffix = jsonPathEvaluator.get("SentenceList[0].en_suffix");
-       Assert.assertEquals(api_en_suffix, en_suffix);     
-
+       Assert.assertEquals(api_en_suffix, en_suffix);
  }
 }

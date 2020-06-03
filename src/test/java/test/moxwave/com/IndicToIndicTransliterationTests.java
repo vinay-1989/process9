@@ -1,5 +1,4 @@
 package test.moxwave.com;
-import test.moxwave.com.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
@@ -20,9 +19,23 @@ public void isValidGetAPI() {
 }
 @Test
 public void isValidPostAPI() {
+    JSONObject mapping_payload = new JSONObject()
+                        .put("SourceText","मंजन")
+                        .put("TargetLanguage", "gujarati")
+                        .put("SourceLanguage","hindi");
 
-    Assert.assertEquals(validateApi.postRequestStatus(WebConfig.BASE_CONFIG.getHindiIndicMappingApi()),200);
+     String api=WebConfig.BASE_CONFIG.getHindiIndicMappingApi();              
+     Response response=  validateApi.postJsonPayload(api, mapping_payload);
+     JsonPath jsonPathEvaluator = response.jsonPath();
+     System.out.println(jsonPathEvaluator.get("TargetText").toString());
+     System.out.println(jsonPathEvaluator.get("Algo").toString());
+
+    //Assert.assertEquals(validateApi.postRequestStatus(WebConfig.BASE_CONFIG.getHindiIndicMappingApi()),200);
 }
+
+
+
+/***********HINDI TO GUJARATI****************************************************************/
 
 @Test(dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
 public void HindiToGujaratiTest(String SourceText, String SourceLanguage, String TargetLanguage, String Algo, String Expected_TargetText)
@@ -36,14 +49,15 @@ public void HindiToGujaratiTest(String SourceText, String SourceLanguage, String
         String api=WebConfig.BASE_CONFIG.getHindiIndicMappingApi();
         Response response=  validateApi.postJsonPayload(api, mapping_payload);
         JsonPath jsonPathEvaluator = response.jsonPath();
-         System.out.println(api);
-       
         String Actual_algo=jsonPathEvaluator.get("Algo");
+        System.out.println(Actual_algo+" "+Algo);
         Assert.assertEquals(Actual_algo, Algo);
 
         String Actual_Target_text=jsonPathEvaluator.get("TargetText");
         Assert.assertEquals(Actual_Target_text, Expected_TargetText);
  }
+
+ /***********************************************************************************************/
 
  @Test(groups = { "SupportedLanguagesTest" }, dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
 public void SupportedLanguagesTest(String SourceLanguage, String TargetLanguage, String SourceText, String Expected_TargetText, String Expected_Algo)
@@ -66,6 +80,7 @@ public void SupportedLanguagesTest(String SourceLanguage, String TargetLanguage,
         Assert.assertEquals(Api_TargetText, Expected_TargetText); 
 }
 
+/*********************************************************************************************** */
 
 @Test 
 public void HindiToGujaratiSupportTest(){
@@ -86,6 +101,7 @@ public void HindiToGujaratiSupportTest(){
             System.out.println("Test cases passed");
         }
 }
+/*********************************************************************************************** */
 
 @Test(dataProvider = "exceldatareader", dataProviderClass = ExcelDataProviders.class)
 public void SourceLanguageNormalizationTest(String SourceLanguage, String TargetLanguage, String SourceText, String Expected_NormalizedText)

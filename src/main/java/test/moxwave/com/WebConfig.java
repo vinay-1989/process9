@@ -4,12 +4,10 @@
 package test.moxwave.com;
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.ConfigFactory;
-import org.aeonbits.owner.Config.Key;
-
-
+//import org.aeonbits.owner.Config.Key;
 //@Config.Sources({ "classpath:${env}.properties" })
-@Config.Sources({ "classpath:qa.properties" })
-//Config.Sources({ "classpath:dev.properties" })
+ @Config.Sources({ "classpath:qa.properties" })
+//@Config.Sources({ "classpath:dev.properties" })
 
 public interface WebConfig extends Config {
 /**
@@ -26,7 +24,7 @@ public interface WebConfig extends Config {
     @Key("wave.tagging.url")
     String getTaggingUrl();
 
-    @Key("wave.tagging.api")
+    @Key("wave.tagging.url")
     String getTaggingApi();
 
     @Key("test.helloword")
@@ -45,5 +43,28 @@ public interface WebConfig extends Config {
 
     @Key("sentence_break.api")
     String validatePrefixSuffix();
+    
+    @Key("detect.sentence.api")
+    String validateSentenceBreak();
+
+    @Key("mox.wave.api")
+    String getMoxWaveApi();
+
+    @Key("flipcart.wrapper.api")
+    String validateFlipcartApi();
+    
+    @Key("flipkart.live.api")
+    String validateFlipkartNewApi();
+
+    @Key("flipcart.lb.api")
+    String validateflipcartLBApi();  
+    
+    @Key("clientcache.insert.api")
+    String InsertClientCache();
+
+    @Key("translate.api")
+    String translate_Api();
+
+
 
 }
